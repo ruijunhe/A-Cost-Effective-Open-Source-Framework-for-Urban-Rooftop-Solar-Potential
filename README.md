@@ -11,6 +11,7 @@ The goal is to provide a comprehensive, replicable, and low-barrier tool for urb
 ![Fig_Rooftop_Solar_Potential_page-0001](https://github.com/user-attachments/assets/8f3481af-dce2-4abe-af84-5e2fca5f9fb8)
 ![Fig_Economic_Payback_Period_page-0001](https://github.com/user-attachments/assets/3e39915c-b505-403f-9054-f0b68f5208c8)
 ![Fig_Shading_Analysis_page-0001](https://github.com/user-attachments/assets/caf38c8c-bbd6-4733-804e-fdd244f72d78)
+Interactive Map Link: https://ruijunhe.github.io/A-Cost-Effective-Open-Source-Framework-for-Urban-Rooftop-Solar-Potential/Fig_Interactive_Website.html
 
 ## Framework Workflow
 
