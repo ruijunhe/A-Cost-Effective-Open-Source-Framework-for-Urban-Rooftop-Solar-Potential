@@ -32,8 +32,47 @@ This project is built with Python. Start by creating a virtual environment and i
 
 ```bash
 # It is recommended to use a virtual environment
-conda create -n solar_env python=3.9
-conda activate solar_env
+conda activate geoai
 
 # Install all required libraries
 pip install -r requirements.txt
+
+### 2. Data Requirements
+
+The framework requires the following core geospatial data for your study area. Please place your files into the corresponding subfolders within the **`inputs/`** directory.
+
+| Data Type | Description | Suggested Format |
+| :--- | :--- | :--- |
+| **DSM/DTM** | Digital Surface/Terrain Model (essential for height, pitch, and shading analysis) | GeoTIFF (`.tif`) |
+| **Buildings** | Building footprints (vector polygons) | GeoJSON, Shapefile, or Parquet |
+| **Boundary** | The outer boundary of the study area | GeoJSON |
+| **Zoning** | Zoning map/building classification data (used in `05_Fig_Solar_Potential_By_Zoning.ipynb`) | GeoJSON/Shapefile |
+
+### 3. Configuration
+
+All critical project parameters, file paths, and economic model assumptions are centrally managed in **`config/parameters.py`**.
+
+Before running the analysis, you **must** modify this file to align with your study area:
+
+* **Update File Paths:** Adjust variables like `DSM_PATH`, `BUILDING_SRC_PATH`, and `BOUNDARY_PATH` to accurately point to your input data locations.
+* **Adjust Economic Model Parameters:** Review and modify economic assumptions (e.g., `PV_COST_PER_W` for system cost, `PPA_RATE` for local electricity price, and `LIFECYCLE_YEARS`) to reflect the target city's market.
+
+### 4. Running the Analysis
+
+The entire analysis is executed sequentially through the Jupyter Notebooks located in the **`notebooks/`** folder. Follow the numbered steps precisely:
+
+1.  **Start:** Run `01_Data_Processing.ipynb` to prepare the input files.
+2.  **Core Model:** Execute `02_Solar_Analysis.ipynb` to perform the geometric, shading, and economic calculations (this notebook calls functions from `src/analysis_utils.py`).
+3.  **Validation & Visuals:** Complete the process by running `03_Model_Validation.ipynb`, `04_Visualization.ipynb`, and the `05_Fig_*.ipynb` notebooks.
+
+Final processed data (`rooftop_solar_potential_optimized.geojson`) and all output images will be saved to the **`outputs/`** folder.
+
+
+### Contribution and License
+
+This project is released under the **MIT License**. We welcome contributions, suggestions, and bug reports via Issues or Pull Requests.
+
+* If you encounter a bug, please open an Issue.
+* If you wish to contribute code (e.g., a new solar model or analysis method), please submit a Pull Request.
+
+Please refer to the `LICENSE` file for full details on usage and distribution permissions.
