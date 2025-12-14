@@ -1,18 +1,19 @@
-# Core Geospatial and Data Processing
+# Core Scientific & Data Processing
 pandas
 numpy
 scipy
+
+# Geospatial and Raster Processing
 geopandas
 rasterio
 rasterstats
 contextily
 
-# Solar Simulation
-pvlib
-
-# Visualization and Utilities
+# Visualization and Web Mapping
 matplotlib
 seaborn
 folium
 branca
-scikit-learn # Used in Model Validation
+
+# Additional utility (assuming for Google API interaction)
+requests
