@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository hosts an open-source and cost-effective framework designed for assessing urban rooftop solar photovoltaic (PV) potential at a city scale. It leverages publicly available geospatial data, such as Digital Surface Models (DSM), building footprints, and aerial imagery, in conjunction with established solar simulation models (like PVLib) to perform comprehensive solar potential assessment, economic feasibility analysis, and result visualization within a local computing environment.
+This repository hosts an open-source and cost-effective framework designed for assessing urban rooftop solar photovoltaic (PV) potential at a city scale. It leverages publicly available geospatial data, such as Digital Surface Models (DSM), building footprints, and aerial imagery, in conjunction with established solar simulation models (like PVLib) to perform comprehensive solar potential assessment, economic feasibility analysis, and result visualization within a local computing environment. 
 
 The framework's workflow is structured across several sequential Jupyter Notebooks:
 
@@ -12,12 +12,3 @@ The framework's workflow is structured across several sequential Jupyter Noteboo
 4.  **04_Visualization.ipynb & 05_Fig_*.ipynb**: Scripts dedicated to generating high-quality static and interactive maps, statistical charts, and figures that visualize solar potential distribution, economic viability, and shading impacts.
 
 ## Directory Structure
-. ├── 01_Data_Processing.ipynb ├── 02_Solar_Analysis.ipynb ├── 03_Model_Validation.ipynb ├── 04_Visualization.ipynb ├── 05_Fig_Interactive_Website.ipynb ├── config.py ├── requirements.txt ├── .gitignore ├── inputs/ │ ├── boundaries/ # Study area boundary GeoJSON file │ ├── raw_data/ # Raw DSM, Building Footprints (e.g., Parquet, Shapefile) │ └── processed/ # Processed and clipped data └── outputs/ ├── final_results/ # Final calculated results GeoJSON file ├── intermediates/ # Intermediate files like shading rasters └── figures/ # Charts, maps, and figures (PDF/PNG/HTML)
-
-## Setup and Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/YourUsername/A-Cost-Effective-Open-Source-Framework-for-Urban-Rooftop-Solar-Potential.git](https://github.com/YourUsername/A-Cost-Effective-Open-Source-Framework-for-Urban-Rooftop-Solar-Potential.git)
-cd A-Cost-Effective-Open-Source-Framework-for-Urban-Rooftop-Solar-Potential
