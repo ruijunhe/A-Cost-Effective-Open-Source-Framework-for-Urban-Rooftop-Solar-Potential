@@ -36,6 +36,7 @@ conda activate geoai
 
 # Install all required libraries
 pip install -r requirements.txt
+```
 
 ### 2. Data Requirements
 
