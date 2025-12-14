@@ -8,11 +8,9 @@ The goal is to provide a comprehensive, replicable, and low-barrier tool for urb
 
 ## Key Results & Visualizations
 
-[**ACTION REQUIRED:** INSERT VISUALS HERE]
-
-Please showcase several compelling images from your `04_Visualization.ipynb` and `05_Fig_*` notebooks. Highlight the spatial distribution of potential, economic feasibility, and model validation charts (e.g., comparison with Google Solar API).
-
----
+![Fig_Rooftop_Solar_Potential_page-0001](https://github.com/user-attachments/assets/8f3481af-dce2-4abe-af84-5e2fca5f9fb8)
+![Fig_Economic_Payback_Period_page-0001](https://github.com/user-attachments/assets/3e39915c-b505-403f-9054-f0b68f5208c8)
+![Fig_Shading_Analysis_page-0001](https://github.com/user-attachments/assets/caf38c8c-bbd6-4733-804e-fdd244f72d78)
 
 ## Framework Workflow
 
