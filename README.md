@@ -1,12 +1,12 @@
-# ☀️ A Cost-Effective Open-Source Framework for Urban Rooftop Solar Potential
+# A Cost-Effective Open-Source Framework for Urban Rooftop Solar Potential
 
-## 💡 Introduction
+## Introduction
 
 This project presents a **cost-effective and fully open-source framework** designed to rapidly assess the solar photovoltaic (PV) potential of urban rooftops. By integrating high-resolution geospatial data (DSM/DTM) with advanced shading analysis and a robust economic model, the framework accurately quantifies annual energy generation, installation costs, and **payback periods** for every building within a study area.
 
 The goal is to provide a comprehensive, replicable, and low-barrier tool for urban planners, policymakers, and researchers to guide strategic, city-scale PV deployment.
 
-## 📊 Key Results & Visualizations
+## Key Results & Visualizations
 
 [**ACTION REQUIRED:** INSERT VISUALS HERE]
 
@@ -14,7 +14,7 @@ Please showcase several compelling images from your `04_Visualization.ipynb` and
 
 ---
 
-## ⚙️ Framework Workflow
+## Framework Workflow
 
 The framework is structured as a five-step process, clearly defined by the numbered Jupyter Notebooks in the `notebooks/` directory:
 
@@ -26,7 +26,7 @@ The framework is structured as a five-step process, clearly defined by the numbe
 | **Step 4** | `04_Visualization.ipynb` | **Static Visualization:** Generates publication-ready static maps and charts for solar potential, economic metrics, and shading analysis. |
 | **Step 5** | `05_Fig_*.ipynb` | **Advanced Visuals & Interactive Map:** Focuses on detailed statistical breakdowns (by zoning or building type) and creates an interactive **Folium/HTML web map** for easy sharing and exploration of the final results. |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Environment Setup
 
