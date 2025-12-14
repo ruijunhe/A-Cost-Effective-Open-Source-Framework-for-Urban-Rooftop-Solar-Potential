@@ -1,0 +1,18 @@
+# Core Geospatial and Data Processing
+pandas
+numpy
+scipy
+geopandas
+rasterio
+rasterstats
+contextily
+
+# Solar Simulation
+pvlib
+
+# Visualization and Utilities
+matplotlib
+seaborn
+folium
+branca
+scikit-learn # Used in Model Validation
